@@ -1,0 +1,422 @@
+*{
+    margin: 0%;
+}
+.body{
+    margin: 0px;
+    color: white;
+    background:url(/img/fondo2.jpg);
+    background-repeat: repeat;
+}
+header{
+    display: flex;
+    background-color: rgb(54, 50, 50)
+}
+.logo{
+    width: 115px;
+    padding: 12px;
+}
+main{
+    margin: 15px;
+}
+.list-nav{
+    list-style: none;    
+    display: flex;
+    gap: 12px;
+    color: white;
+    padding-top: 40px;
+    align-content: center;  
+    }
+.item-nav{
+    text-decoration: none;
+    color: white;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    }
+p{
+    text-align: center;
+    padding: 5px;
+}
+/* Pagina Sega*/
+.index2{
+    background-image: url(/img/fondo-sega.jpg);
+}
+.grupo-imgsega{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagensega , .segalogo {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+.sega-texto{
+    display: flex;
+}
+.sega-titulo{
+    text-align: center;
+}
+.imagenes-sega{
+    background-color: rgb(61, 61, 133);
+    padding-top: 10px;
+    margin: 20px;
+}
+.titulo{
+    color: blanchedalmond;
+    padding-top: 40px;
+}
+.sega-subtitulo{
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.title-sega{
+    margin-top: 10px;
+   background-color: rgb(44, 44, 95);
+   color: blanchedalmond;
+   display: flex;
+   justify-content: center;
+}
+.setion{
+    display: flex;
+    background-color: rgb(33, 33, 36);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+.container-sega{
+    background-color: rgb(28, 28, 61);
+
+}
+/* Pagina Nintendo*/
+.index3{
+    background-image: url(/img/fondo-nintendo.jpg);
+}
+.grupo-imgnintendo{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.nintendo-texto{
+    display: flex;
+}
+.galeria-imagennintendo{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+.titulo{
+    color: blanchedalmond;
+    padding-top: 40px;
+}
+.nintendo-subtitulo{
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.title-nintendo{
+    margin-top: 10px;
+   background-color: rgb(136, 51, 30);
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+}
+.supernintendo-titulo{
+    text-align: center;
+}
+.supernintendo-texto{
+    display: flex;
+}
+.section{
+    display: flex;
+    background-color: rgb(33, 33, 36);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.imagenes-nintendo{
+    background-color:rgb(136, 51, 30);
+}
+/* Pagina Play Station*/
+.index4{
+    background-image: url(/img/fondo-play.jpg);
+}
+.grupo-imgplay{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.play-texto{
+    display: flex;
+}
+.section{
+    display: flex;
+    background-color: rgb(33, 33, 36);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.title-play{
+    margin-top: 10px;
+   background-color: rgb(75, 45, 37);
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+}
+.play-subtitulo{
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    color: blanchedalmond;
+    padding-top: 40px;
+}
+.fondoplay{
+    background: rgb(80, 83, 77);
+}
+.galeria-imagenplay{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.playlogo{
+    width: 300px;
+}
+/* Pagina Play Station 2*/
+.index5{
+    background-image: url(/img/fondo-play2.jpg);
+}
+.grupo-imgplay2{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagenplay2{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+.play2-titulo{
+    text-align: center;
+}
+.play2-texto{
+    display: flex;
+}
+.play2-subtitulo{
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.title-play2{
+    margin-top: 10px;
+   background-color: rgb(121, 55, 38);
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+}
+.section{
+    display: flex;
+    background-color: rgb(33, 33, 36);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+/* Pagina de xbox360*/
+.index6{
+    background-image: url(/img/fondo-xbox.webp);
+}
+
+.grupo-imgxbox360{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagenxbox360{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+.xbox-titulo{
+    text-align: center;
+}
+.title-xbox{
+    margin-top: 10px;
+   background-color: rgb(24, 11, 8);
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+}
+.section{
+    display: flex;
+    background-color: rgb(33, 33, 36);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+}
+.xbox-subtitulo{
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.xbox-texto{
+    display: flex;
+}
+
+/* pagina de Wii*/
+.index7{
+    background-image: url(/img/fondo-wii.jpg);
+}
+
+.grupo-imgwii{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria-imagenwii{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+.wii-titulo{
+    text-align: center;
+}
+.wii-texto{
+    display: flex;
+}
+.section{
+    display: flex;
+    background-color: rgb(33, 34, 36);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 25px; 
+}
+.title-wii{
+    margin-top: 10px;
+   background-color: rgb(33, 34, 36);
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+}
+.wii-subtitulo{
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.grupo-img{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+/*bordes de cada sección*/
+.sega , .supernintendo , .play1 , .play2 , .xbox360 , .wii{
+    border: 8px rgb(66, 68, 66) outset;
+    padding: 15px;
+}
+
+
+/*imagenes de las consolas*/
+.sega1 , .nintendo1 , .playimg , .play2img , .xbox360img , .wiiimg{
+    width:200px;
+   height:200px; 
+   padding: 10px;
+/*imagenes de los logos*/
+}
+.segalogo , .nintendologo , .playlogo , .play2logo , .xboxlogo , .wiilogo {
+    background-position: left bottom;
+   height:200px; 
+   padding: 10px;  
+}
+.estilofooter{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 50px;
+}
+footer{
+    color:white;
+    background-color: rgb(58, 54, 54);
+    width: 100%;
+    height: 50%;
+    padding: 1px;
+    text-align: center;
+    display: block;
+    list-style: none;
+}
+/* Sega */
+.titulo{
+    color: blanchedalmond;
+    padding-top: 40px;
+}
+.sega-subtitulo{
+    color: blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.title-sega{
+    margin-top: 10px;
+   background-color: rgb(44, 44, 95);
+   color: blanchedalmond;
+   display: flex;
+   justify-content: center;
+}
+.setion{
+    display: flex;
+    background-color: rgb(33, 33, 36);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+.container-sega{
+    background-color: rgb(28, 28, 61);
+
+}
